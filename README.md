@@ -1,8 +1,10 @@
-The Online Attendance Management System is a web-based application designed to simplify
-the tracking, management, and reporting of student attendance in real-time. Faculty members
-can sign up, log in, mark attendance efficiently, view attendance records, and generate reports,
-while students do not have login access. The system provides detailed reports and visualizes
-attendance patterns through charts and graphs to help analyze trends. It also enables the
-management of user accounts, classes, and student records, along with system settings such
-as notifications. With a user-friendly interface accessible across devices, the system enhances
-the efficiency of attendance tracking and management for educational institutions.
+installation
+################
+1,DOWNLOAD ALL FILE AND PASTE IN ALL FOLDER INTO A SINGLE FOLDER(eg.Attendance-System-master[folder name])
+2,install XAMPP
+3,PASTE THE FOLDER[Attendance-System-master]IN  C:\xampp\htdocs
+4,OPEN XAMPP and make sure APACHE,MYSQL IS IN START
+5,then open https://localhost/phpmyadmin/
+6,click on new and create database(database name:attendance)
+7,import->browse->C:\xampp\htdocs\Attendance-System-master -> click on attendance(sql file)->then click import on bottom
+8,open browser localhost/[folder name] ...eg.https://localhost/Attendance-System-master/
